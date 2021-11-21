@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import BlogPost from './BlogPost';
 
 function App() {
+  // let name = "Taofeek Ajibade";
+  // let city = "Ibadan";
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BlogPost/>
+      {/* <h1>Welcome to my first blog built from ground up</h1>
+      <p>Hello {name}, welcome to {city}.</p>
+      <p>It's nice to have you here.</p>
+      <p>{name === "Ajibade"? "We have you covered. Your laptop will be delivered within the next 24hours.": "Oh! We are happy to see you, our new customer. Could you please introduce yourself?"}</p>
+       */}
     </div>
   );
 }
